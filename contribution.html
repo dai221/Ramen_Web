@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- 文字コードをutf-8に設定 -->
+  <meta charset="UTF-8">
+  
+  <!-- webページのタイトル -->
+  <title>Ramen Web-Contribution</title>
+  
+  <!-- webページの説明文 -->
+  <meta name="description" content ="ラーメン愛を形にしたWebサイト">
+  
+  <!-- 多分スマホ用 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- cssのリセット「ress」 -->
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+
+  <!-- googleフォントの指定 -->
+  <link href="https://fonts.googleapis.com/css2?family=Philosopher" rel="stylesheet">
+  
+  <!-- style.cssの紐付け -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- ファビコンの指定 -->
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  
+</head>
+
+<body>
+  <!-- Contribution画像 -->
+  <div id="contribution" class="big-img">
+    <header>
+      
+      <!-- ヘッダ画面 -->
+      <div class="page-header wrapper">
+        
+        <!-- ロゴ画面とリンクの設定 -->
+        <h1>
+          <a href="index.html"><img src="img/ramen_logo.png" alt="Ramen Webのロゴ"></a>
+        </h1>
+        
+        <!-- メニューリスト -->
+        <ul class="menu-list">
+          <li><a href="news.html">News</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contribution.html">Contribution</a></li>
+        </ul>
+        
+      </div>
+
+    </header>
+
+    <!-- Contributionのタイトル -->
+    <div class="wrapper contribution-content">
+      <h2 class="contribution-title">Contribution</h2>
+      <p>あなたも食べたラーメンを投稿してみませんか？</p>
+    </div>
+
+    <!-- 投稿フォーム -->
+    <div class="wrapper">
+      <form action="#">
+        <div>
+          <label for="nickname">ニックネーム</label>
+          <input type="text" id="name" name="your-nickname">
+        </div>
+
+        <div>
+          <label for="email">メールアドレス</label>
+          <input type="email" id="email" name="your-email">
+        </div>
+
+        <div>
+          <label for="comment">コメント</label>
+          <textarea name="your-comment" id="message"></textarea>
+        </div>
+
+        <input type="submit" class="buttom" value="投稿">
+
+      </form>
+    </div>
+
+    
+  </div>
+  <!-- 地図の表示 -->
+  <section id="location">
+    <div class="wrapper">
+      <div class="location-info">
+        <h3 class="sub-title">家系総本山 吉村家</h3>
+        <p>
+          住所：〒220-0005 <br>
+          神奈川県横浜市西区南幸２丁目１２−６ <br>
+          電話：03-1111-1111 <br>
+          営業時間：11:00〜22:00 <br>
+          定休日：月曜日
+        </p>
+      </div>
+      <div class="location-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12998.607163248003!2d139.6160763!3d35.4634141!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc9ce8a60cdd2d672!2z5a6257O757eP5pys5bGxIOWQieadkeWutg!5e0!3m2!1sja!2sjp!4v1594044643916!5m2!1sja!2sjp" width="800" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+      </div>
+    </div>
+  </section>
+  
+  <!-- フッターの著作権 -->
+  <footer>
+    <div class="wrapper">
+      <p><small>&copy; 2020 Ramen Web</small></p>
+    </div>
+  </footer>
+    
+  </body>
+</html>
