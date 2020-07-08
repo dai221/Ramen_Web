@@ -95,6 +95,29 @@
     margin-bottom: 30px;
   }
 
+  /* Contribution */
+  .contribution-title{
+    font-size: 2.5rem;
+  }
+
+  .contribution-content p{
+    font-size: 1.225rem;
+  }
+
+  #contribution{
+    height: auto;
+    padding-bottom: 20px;
+    background-position: -400px 0px;
+  }
+
+  #location .wrapper{
+    flex-direction: column;
+  }
+
+  .location-info, .location-map{
+    width: 100%;
+  }
+
 }
 
 /* *は全ての要素に適応 */
