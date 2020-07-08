@@ -217,19 +217,6 @@ aside a{
   margin-bottom: 40px;
 }
 
-/* メディアクエリ */
-@media(max-width:600px){
-  .home-title{
-    font-size: 2.5rem;
-  }
-
-  big-img{
-    width: 100%;
-  }
-
-}
-
-
 /* Galleryのトップ */
 #gallery{
   background-image: url(../img/gyouretu.png);
@@ -342,3 +329,5 @@ input[type="submit"]{
 iframe{
   width: 100%;
 }
+
+

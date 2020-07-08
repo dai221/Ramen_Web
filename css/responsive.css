@@ -1,0 +1,48 @@
+/* メディアクエリ */
+/* タブレット向け */
+@media(max-width:1000px){
+  .home-title{
+    font-size: 2.5rem;
+  }
+
+  /* big-img{
+    width: 100%;
+  } */
+
+  .wrapper{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 4%;
+  }
+
+  .page-header{
+    margin-bottom: 100px;
+  }
+
+}
+
+@media(max-width:670px){
+  .home-title{
+    font-size: 2.5rem;
+  }
+
+  /* big-img{
+    width: 100%;
+  } */
+
+  .wrapper{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 4%;
+  }
+
+}
+
+/* *は全ての要素に適応 */
+/* border-boxはwidthの合計にpaddingやborderを含む */
+/* 未然にレイアウト崩れを防ぐことができる */
+*{
+  box-sizing: border-box;
+}
