@@ -44,7 +44,7 @@
   }
 
   .page-header{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 
   .dot{
@@ -53,6 +53,37 @@
 
   .media{
     white-space: pre;
+  }
+
+  .menu-list li{
+    margin-left: 10px;
+  }
+
+  
+  /* News */
+  .news-contents{
+    flex-direction: column;
+  }
+
+  article , aside{
+    width: 100%;
+  }
+
+  #news{
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  .home-title h2{
+    font-size: 30px;
+  }
+
+  .page-header{
+    margin: 0;
+  }
+
+  article{
+    margin-bottom: 20px;
   }
 
 }
