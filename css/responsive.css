@@ -38,6 +38,23 @@
     padding: 0 4%;
   }
 
+  .page-header{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .page-header{
+    margin-bottom: 50px;
+  }
+
+  .dot{
+    display: none;
+  }
+
+  .media{
+    white-space: pre;
+  }
+
 }
 
 /* *は全ての要素に適応 */
